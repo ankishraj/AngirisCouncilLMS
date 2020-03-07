@@ -51,7 +51,12 @@
 }
 
 .main-body p{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 15px;
+    padding-left: 20px;
+    margin-bottom: 20px;
     font-variant: none;
     font-size: 12pt;
     font-weight: normal;
@@ -122,4 +127,19 @@
 }
 .tableButton:hover{
     background-color: #8a0d26;
+}
+
+.backBtn{
+    position: absolute;
+    z-index: 1;
+    float: right;
+    max-width: 10%;
+    max-height: 30px;
+    margin: 0;
+    display: block;
+    padding: 2px !important;
+}
+
+table{
+    margin-top: 25px;
 }
