@@ -7,7 +7,7 @@ body{
     background: url("lib.jpg");
     -webkit-border-radius: 15px;
     border-radius: 15px;
-    margin: 10px;
+    margin: 15px;
 }
 
 .header-bar h1{
@@ -39,7 +39,7 @@ body{
     text-align: center;
     -webkit-border-radius: 15px;
     border-radius: 15px;
-    margin: 10px;
+    margin: 15px;
 }
 
 .main-body .bigOption{
@@ -145,7 +145,7 @@ body{
     position: absolute;
     z-index: 1;
     float: right;
-    max-width: 10%;
+    max-width: 45px;
     max-height: 30px;
     margin: 0;
     display: block;
@@ -189,9 +189,20 @@ input.inputBox{
     padding: 5px;
     width: 20%;
     text-align: center;
+    margin-bottom: 10px;
+    font-weight: 400;
 }
 
 label.inputBox{
+    font-weight: 500;
     color: #FF4900;
     margin-top: 15px;
+}
+
+label.inputOpt{
+    color: #DFDC00;
+}
+
+a.formEndPoint{
+    max-width: 12% !important;
 }

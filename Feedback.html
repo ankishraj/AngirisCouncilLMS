@@ -14,26 +14,26 @@
 <div class="main-body">
     <div>
         <a class="btn bigOption backBtn" href="Greeting.html">Back</a>
-        <p>We love to hear from our users.</p>
+        <p>We love to hear from our users. Tell us your experience and ways that you think we can improve our services.</p>
     </div>
     <div>
         <form method=“post” action=“#”>
             <div>
-                <label  class="inputBox" for=“name”>Name: </label>
+                <label style="width: 100%" class="inputBox" for=“name”>Name</label>
                 <br>
                 <input class="inputBox" type=“text” name=“name”>
             </div>
             <div>
-                <label  class="inputBox" for=“emailID”>Email ID: </label>
+                <label  class="inputBox" for=“emailID”>Email ID</label>
                 <br>
                 <input class="inputBox" type=“text” name=“emailID”>
             </div>
             <div>
-                <label  class="inputBox" for=“review”>Review/Suggestions:</label>
+                <label  class="inputBox" for=“review”>Review/Suggestions</label>
                 <br>
                 <input class="inputBox" type=“text” name=“review">
             </div>
-            <a class="btn bigOption" href="MemberPortal.html">Submit</a>
+            <a class="btn bigOption formEndPoint" href="MemberPortal.html">Submit</a>
         </form>
     </div>
     <div>
@@ -47,7 +47,7 @@
             <tbody>
             <tr th:each="">
                 <td th:field="">PLACEHOLDER</td>
-                <td th:field="">PLACEHOLDER</td>
+                <td colspan="3" th:field="">PLACEHOLDER</td>
             </tr>
             </tbody>
         </table>
