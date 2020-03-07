@@ -109,7 +109,7 @@
     width: 200px;
     height: 100%;
     opacity: 0;
-    transition: .5s s;
+    transition: .5s ease-in-out;
 }
 .overlay:hover{
     opacity: 1;
