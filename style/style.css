@@ -32,19 +32,7 @@
     text-align: center;
 }
 
-.main-body .option{
-    margin-top: 20px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    max-width: 30%;
-    background-color: red;
-    padding: 15px;
-    font-family: Arial;
-}
-
-.main-body a{
+.main-body .bigOption{
     position: relative;
     color: whitesmoke;
     width: 30%;
@@ -56,7 +44,7 @@
     transition: 0.2s ease;
 }
 
-.main-body a:hover{
+.main-body .bigOption:hover{
     color: yellow;
     font-weight: bold;
     background-color: #8a0d26;
@@ -126,10 +114,12 @@
     -ms-transform: translate(-50%, -50%);
 }
 
-a.tableButton{
-    background-color: yellow;
-    width: 20% !important;
-    position: absolute;
+.tableButton{
+    background-color: crimson;
+    position: relative;
     width: 100%;
     height: auto;
+}
+.tableButton:hover{
+    background-color: #8a0d26;
 }
