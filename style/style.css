@@ -51,19 +51,21 @@
     display: block;
     background-color: crimson;
     margin: 20px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.2s ease;
 }
 
 .main-body a:hover{
     color: yellow;
+    font-weight: bold;
     background-color: #a30f2d;
 }
 
 .main-body p{
     padding-top: 15px;
-    font-family: Arial;
     font-variant: none;
-    font-size: 11pt;
-    background-color: black;
+    font-size: 12pt;
     font-weight: normal;
     color: white;
     background-color: #0d0d0d;
@@ -107,6 +109,7 @@
     width: 200px;
     height: 100%;
     opacity: 0;
+    transition: .5s s;
 }
 .overlay:hover{
     opacity: 1;
