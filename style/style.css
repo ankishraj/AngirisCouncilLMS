@@ -54,7 +54,8 @@
 }
 
 .main-body a:hover{
-    color: #ffff4d;
+    color: yellow;
+    background-color: #a30f2d;
 }
 
 .main-body p{
@@ -112,7 +113,8 @@
 }
 
 .text {
-    color: white;
+    color: yellow;
+    font-weight: bolder;
     font-size: 12pt;
     position: absolute;
     top: 50%;
