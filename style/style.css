@@ -1,15 +1,17 @@
-.body{
+body{
     background-color: black !important;
 }
 .header-bar{
-    width: 100%;
     padding: 15px;
     text-align: center;
     background: url("lib.jpg");
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    margin: 10px;
 }
 
 .header-bar h1{
-    font-family: Consolas;
+    font-family: Calibri;
     font-size: 27pt;
     letter-spacing: 2px;
     word-spacing: -0.6px;
@@ -30,6 +32,9 @@
     padding: 13px;
     max-width: 100%;
     text-align: center;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    margin: 10px;
 }
 
 .main-body .bigOption{
