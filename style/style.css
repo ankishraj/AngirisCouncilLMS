@@ -181,3 +181,17 @@ table tr td{
 table tr th{
     padding: 12px;
 }
+
+input.inputBox{
+    background-color: #DFDC00;
+    color: black;
+    border: none;
+    padding: 5px;
+    width: 20%;
+    text-align: center;
+}
+
+label.inputBox{
+    color: #FF4900;
+    margin-top: 15px;
+}
