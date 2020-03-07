@@ -58,6 +58,7 @@ body{
 .main-body .bigOption:hover{
     font-weight: bold;
     background-color: #DFDC00;
+    color: black;
 }
 
 .main-body p{
