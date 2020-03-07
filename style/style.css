@@ -15,9 +15,14 @@ body{
     font-size: 24pt;
     letter-spacing: 2px;
     word-spacing: -0.6px;
-    color: #ffff4d;
-    font-weight: 1000;
+    color: #ffff1a;
+    font-weight: bold;
     font-variant: small-caps;
+    background-color: black;
+    width: 500px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header-bar p{
@@ -39,10 +44,11 @@ body{
 
 .main-body .bigOption{
     position: relative;
-    color: whitesmoke;
+    font-weight: 500;
+    color: white;
     width: 30%;
     display: block;
-    background-color: crimson;
+    background-color: #FF4900;
     margin: 20px auto;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -50,9 +56,8 @@ body{
 }
 
 .main-body .bigOption:hover{
-    color: yellow;
     font-weight: bold;
-    background-color: #8a0d26;
+    background-color: #DFDC00;
 }
 
 .main-body p{
@@ -99,7 +104,7 @@ body{
 }
 
 .overlay{
-    background-color: crimson;
+    background-color: #FF4900;
     position: absolute;
     top:0;
     bottom: 0;
@@ -125,13 +130,14 @@ body{
 }
 
 .tableButton{
-    background-color: crimson;
+    color: whitesmoke;
+    background-color: #FF4900;
     position: relative;
     width: 100%;
     height: auto;
 }
 .tableButton:hover{
-    background-color: #8a0d26;
+    background-color: #FF4900;
 }
 
 .backBtn{
@@ -146,5 +152,31 @@ body{
 }
 
 table{
-    margin-top: 25px;
+    z-index: 1;
+    width:100%;
+    margin-top: 40px;
+    color: whitesmoke;
+    background-color: black;
+}
+
+.footer{
+    margin-top: 50px;
+}
+
+table thead{
+    font-size: 14pt;
+    color: #FF4900;
+}
+
+table tbody{
+    color: #DFDC00;
+    font-size: 12pt;
+}
+
+table tr td{
+    padding: 8px;
+}
+
+table tr th{
+    padding: 12px;
 }
